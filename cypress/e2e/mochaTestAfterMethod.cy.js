@@ -1,3 +1,4 @@
+///<reference types="cypress"/>
 describe ('Using after method', () => {
 
   beforeEach (() => {
