@@ -79,7 +79,7 @@ describe ('Test Suite for visit link and click on the locator',() => {
             cy.get('#inputWebsite').type(`${webSite}`);
             cy.get('#inputWebsite').should('have.value', `${expectWebSite}`);
             cy.get('button.appearance-filled.size-medium.shape-rectangle.status-basic').click();
-
+///
         })
     })
     
