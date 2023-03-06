@@ -73,7 +73,7 @@ describe ('Test Suite for visit link and click on the locator',() => {
             cy.get('#inputFirstName').type(`${fio}`);
             cy.get('#inputFirstName').should('have.value',`${fio}`);
             cy.get('#inputLastName').type(`${lastName}`);
-            cy.get('#inputLastName').should('have.value', `${lastName}`);
+            cy.get('#inputLastName').should('have.value', `${expectedLastName}`);
             cy.get('#inputEmail').type(`${email}`);
             cy.get('#inputEmail').should('have.value', `${expectedEmail}`);
             cy.get('#inputWebsite').type(`${webSite}`);
